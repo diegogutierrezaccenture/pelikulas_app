@@ -1,0 +1,52 @@
+.searchBar {
+    text-align: center;
+}
+
+.searchBar input {
+    width: 250px;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.searchBar button {
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.contenidorPelis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movie-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    height: 650px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.movie-card img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 17px;
+}
