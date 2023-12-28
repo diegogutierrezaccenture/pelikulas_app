@@ -10,6 +10,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { DatosBddComponent } from './datos-bdd/datos-bdd.component';
 
+// import { AngularFireModule } from '@angular/fire';
+// import { AngularFireAuthModule } from '@angular/fire/auth';
+import { environment } from '../environment';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +26,7 @@ import { DatosBddComponent } from './datos-bdd/datos-bdd.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [TmdbService],
   bootstrap: [AppComponent]
